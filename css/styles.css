@@ -1,48 +1,48 @@
 :root {
-  --main-color: #2e2f42;
-  --desc-color: #434455;
-  --main-violet-color: #4d5ae5;
-  --white-color: #ffffff;
-  --hover-focus-color: #404bbf;
-  --footer-logo-color: #f4f4fd;
-  --footer-desc-color: #e7e9fc;
-  --background-color: #f4f4fd;
+    --main-color: #2e2f42;
+    --desc-color: #434455;
+    --main-violet-color: #4d5ae5;
+    --white-color: #ffffff;
+    --hover-focus-color: #404bbf;
+    --footer-desc-color: #e7e9fc;
+    --background-color: #f4f4fd;
 }
 body {
-  font-family: "roboto", sans-serif;
-  color: var(--main-color);
+    font-family: "roboto", sans-serif;
+    color: var(--main-color);
 }
 .list {
-  list-style: none;
+    list-style: none;
 }
 .link {
-  text-decoration: none;
+    text-decoration: none;
 }
 .title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .desc {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--desc-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--desc-color);
 }
 .btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 /* -------------HEADER--------------- */
 .header {
@@ -51,44 +51,44 @@ body {
 }
 
 .visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+    white-space: nowrap;
+    position: absolute;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+    width: 1px;
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-violet-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-violet-color);
+    font-family: "Raleway", sans-serif;
 }
 .header-logo {
-  color: var(--main-color);
+    color: var(--main-color);
 }
 .header-list {
 }
 .header-item {
 }
 .header-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    font-weight: 500;
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--hover-focus-color);
+    color: var(--hover-focus-color);
 }
 .header-adress {
 }
@@ -97,35 +97,35 @@ body {
 .header-adress-item {
 }
 .header-contacts {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--desc-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--desc-color);
+    font-style: normal;
 }
 .header-contacts:hover,
 .header-contacts:focus {
-  color: var(--hover-focus-color);
+    color: var(--hover-focus-color);
 }
 /* -------------HERO--------------- */
 .hero {
-  background-color: var(--main-color);
+    background-color: var(--main-color);
 }
 .hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: var(--white-color);
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    font-weight: 700;
 }
 .hero-btn {
-  color: var(--white-color);
-  background-color: var(--main-violet-color);
+    background-color: var(--main-violet-color);
+    color: var(--white-color);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--hover-focus-color);
+    background-color: var(--hover-focus-color);
 }
 /* -------------FEAUTERS--------------- */
 .feauters {
@@ -149,12 +149,12 @@ body {
 }
 /* -------------TEAM--------------- */
 .team {
-  background-color: var(--background-color);
+    background-color: var(--background-color);
 }
 .team-list {
 }
 .team-item {
-  background-color: var(--white-color);
+    background-color: var(--white-color);
 }
 .team-subtitle {
 }
@@ -162,13 +162,13 @@ body {
 }
 /* -------------FOOTER--------------- */
 .footer {
-  background-color: var(--main-color);
+    background-color: var(--main-color);
 }
 .footer-logo {
-  color: var(--footer-logo-color);
+    color: var(--background-color);
 }
 .footer-desc {
-  color: var(--footer-desc-color);
+    color: var(--footer-desc-color);
 }
 /* -------------PORTFOLIO--------------- */
 .portfolio {
@@ -178,13 +178,13 @@ body {
 .portfolio-item-btn {
 }
 .portfolio-btn {
-  color: var(--main-violet-color);
-  background: var(--background-color);
+    background: var(--background-color);
+    color: var(--main-violet-color);
 }
 .portfolio-btn:focus,
 .portfolio-btn:hover {
-  color: var(--white-color);
-  background: var(--hover-focus-color);
+    background: var(--hover-focus-color);
+    color: var(--white-color);
 }
 .portfolio-list {
 }
