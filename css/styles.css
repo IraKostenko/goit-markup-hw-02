@@ -6,7 +6,7 @@
   --hover-focus-color: #404bbf;
   --footer-logo-color: #f4f4fd;
   --footer-desc-color: #e7e9fc;
-  --portfolio-btn-background-color: #f4f4fd;
+  --background-color: #f4f4fd;
 }
 body {
   font-family: "roboto", sans-serif;
@@ -149,7 +149,7 @@ body {
 }
 /* -------------TEAM--------------- */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--background-color);
 }
 .team-list {
 }
@@ -179,7 +179,7 @@ body {
 }
 .portfolio-btn {
   color: var(--main-violet-color);
-  background: var(--portfolio-btn-background-color);
+  background: var(--background-color);
 }
 .portfolio-btn:focus,
 .portfolio-btn:hover {
